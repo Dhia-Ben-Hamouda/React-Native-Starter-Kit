@@ -1,22 +1,24 @@
-npm install react-native-reanimated
-npm install react-native-gesture-handler
-npm install react-native-screens
-npm install react-native-safe-area-context
-npm install react-native-dotenv
-npm install react-native-vector-icons
-npm install react-native-splash-screen
-npm install react-redux
-npm install react-i18next
-npm install @react-navigation/native
-npm install @react-navigation/native-stack
-npm install @react-navigation/drawer
-npm install @react-navigation/bottom-tabs
-npm install @gorhom/bottom-sheet
-npm install @react-native-async-storage/async-storage
-npm install @react-native-community/checkbox
-npm install @react-native-masked-view/masked-view
-npm install @tanstack/react-query
-npm install @reduxjs/toolkit
-npm install moment
-npm install socket.io-client
-npm install i18next
+npm install --legacy-peer-deps react-native-reanimated
+npm install --legacy-peer-deps react-native-gesture-handler
+npm install --legacy-peer-deps react-native-screens
+npm install --legacy-peer-deps react-native-safe-area-context
+npm install --legacy-peer-deps react-native-dotenv
+npm install --legacy-peer-deps react-native-vector-icons
+npm install --legacy-peer-deps react-native-splash-screen
+npm install --legacy-peer-deps react-native-paper
+npm install --legacy-peer-deps react-redux
+npm install --legacy-peer-deps react-i18next
+npm install --legacy-peer-deps @react-navigation/native
+npm install --legacy-peer-deps @react-navigation/native-stack
+npm install --legacy-peer-deps @react-navigation/drawer
+npm install --legacy-peer-deps @react-navigation/bottom-tabs
+npm install --legacy-peer-deps @gorhom/bottom-sheet
+npm install --legacy-peer-deps @react-native-async-storage/async-storage
+npm install --legacy-peer-deps @react-native-community/checkbox
+npm install --legacy-peer-deps @react-native-masked-view/masked-view
+npm install --legacy-peer-deps @tanstack/react-query
+npm install --legacy-peer-deps @reduxjs/toolkit
+npm install --legacy-peer-deps moment
+npm install --legacy-peer-deps socket.io-client
+npm install --legacy-peer-deps i18next
+npm install --legacy-peer-deps axios
