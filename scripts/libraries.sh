@@ -5,7 +5,10 @@ npm install --legacy-peer-deps react-native-safe-area-context
 npm install --legacy-peer-deps react-native-dotenv
 npm install --legacy-peer-deps react-native-vector-icons
 npm install --legacy-peer-deps react-native-splash-screen
+npm install --legacy-peer-deps react-native-linear-gradient
+npm install --legacy-peer-deps react-native-skeleton-placeholder
 npm install --legacy-peer-deps react-native-paper
+npm install --legacy-peer-deps react-native-restart
 npm install --legacy-peer-deps react-redux
 npm install --legacy-peer-deps react-i18next
 npm install --legacy-peer-deps @react-navigation/native
@@ -15,6 +18,7 @@ npm install --legacy-peer-deps @react-navigation/bottom-tabs
 npm install --legacy-peer-deps @gorhom/bottom-sheet
 npm install --legacy-peer-deps @react-native-async-storage/async-storage
 npm install --legacy-peer-deps @react-native-community/checkbox
+npm install --legacy-peer-deps @react-native-community/netinfo
 npm install --legacy-peer-deps @react-native-masked-view/masked-view
 npm install --legacy-peer-deps @tanstack/react-query
 npm install --legacy-peer-deps @reduxjs/toolkit
