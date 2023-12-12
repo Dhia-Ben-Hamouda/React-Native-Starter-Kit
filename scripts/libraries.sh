@@ -7,6 +7,8 @@ npm install --legacy-peer-deps react-native-vector-icons
 npm install --legacy-peer-deps react-native-splash-screen
 npm install --legacy-peer-deps react-native-linear-gradient
 npm install --legacy-peer-deps react-native-skeleton-placeholder
+npm install --legacy-peer-deps react-native-toast-message
+npm install --legacy-peer-deps react-native-image-picker
 npm install --legacy-peer-deps react-native-paper
 npm install --legacy-peer-deps react-native-restart
 npm install --legacy-peer-deps react-redux
@@ -26,3 +28,5 @@ npm install --legacy-peer-deps moment
 npm install --legacy-peer-deps socket.io-client
 npm install --legacy-peer-deps i18next
 npm install --legacy-peer-deps axios
+npm install --legacy-peer-deps formik
+npm install --legacy-peer-deps yup
