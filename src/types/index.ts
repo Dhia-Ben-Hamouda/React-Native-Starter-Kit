@@ -1,4 +1,5 @@
 import { NavigatorScreenParams } from "@react-navigation/native";
+import { backgrounds, colors } from "../theme";
 
 export interface IUser {
 
@@ -8,7 +9,7 @@ export interface IUser {
 
 export interface IReduxAuthState {
     user: IUser | null;
-    isAuthenticated: boolean; 
+    isAuthenticated: boolean;
 }
 
 // navigation types / interfaces

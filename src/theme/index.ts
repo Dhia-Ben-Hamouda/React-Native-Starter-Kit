@@ -1,3 +1,5 @@
+import { backgrounds } from "./backgrounds";
+import { borders } from "./borders";
 import { colors } from "./colors";
 import { fonts } from "./fonts";
 import { gutters } from "./gutters";
@@ -7,5 +9,7 @@ export {
     colors,
     fonts,
     gutters,
-    layout
+    layout,
+    backgrounds,
+    borders
 }
