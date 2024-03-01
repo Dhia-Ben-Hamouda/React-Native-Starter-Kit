@@ -1,35 +1,37 @@
-npm install --legacy-peer-deps react-native-reanimated
-npm install --legacy-peer-deps react-native-gesture-handler
-npm install --legacy-peer-deps react-native-screens
-npm install --legacy-peer-deps react-native-safe-area-context
-npm install --legacy-peer-deps react-native-dotenv
-npm install --legacy-peer-deps react-native-vector-icons
-npm install --legacy-peer-deps react-native-splash-screen
-npm install --legacy-peer-deps react-native-linear-gradient
-npm install --legacy-peer-deps react-native-skeleton-placeholder
-npm install --legacy-peer-deps react-native-svg-transformer
-npm install --legacy-peer-deps react-native-toast-message
-npm install --legacy-peer-deps react-native-image-picker
-npm install --legacy-peer-deps react-native-paper
-npm install --legacy-peer-deps react-native-restart
-npm install --legacy-peer-deps react-native-svg
-npm install --legacy-peer-deps react-redux
-npm install --legacy-peer-deps redux-persist
-npm install --legacy-peer-deps react-i18next
-npm install --legacy-peer-deps @react-navigation/native
-npm install --legacy-peer-deps @react-navigation/native-stack
-npm install --legacy-peer-deps @react-navigation/drawer
-npm install --legacy-peer-deps @react-navigation/bottom-tabs
-npm install --legacy-peer-deps @gorhom/bottom-sheet
-npm install --legacy-peer-deps @react-native-async-storage/async-storage
-npm install --legacy-peer-deps @react-native-community/checkbox
-npm install --legacy-peer-deps @react-native-community/netinfo
-npm install --legacy-peer-deps @react-native-masked-view/masked-view
-npm install --legacy-peer-deps @tanstack/react-query
-npm install --legacy-peer-deps @reduxjs/toolkit
-npm install --legacy-peer-deps moment
-npm install --legacy-peer-deps socket.io-client
-npm install --legacy-peer-deps i18next
-npm install --legacy-peer-deps axios
-npm install --legacy-peer-deps formik
-npm install --legacy-peer-deps yup
+yarn add react-native-reanimated
+yarn add react-native-gesture-handler
+yarn add react-native-screens
+yarn add react-native-safe-area-context
+yarn add react-native-dotenv
+yarn add react-native-vector-icons
+yarn add react-native-splash-screen
+yarn add react-native-linear-gradient
+yarn add react-native-skeleton-placeholder
+yarn add react-native-svg-transformer
+yarn add react-native-toast-message
+yarn add react-native-image-picker
+yarn add react-native-date-picker
+yarn add react-native-paper
+yarn add react-native-restart
+yarn add react-native-svg
+yarn add react-redux
+yarn add redux-persist
+yarn add redux-saga
+yarn add react-i18next
+yarn add @react-navigation/native
+yarn add @react-navigation/native-stack
+yarn add @react-navigation/drawer
+yarn add @react-navigation/bottom-tabs
+yarn add @gorhom/bottom-sheet
+yarn add @react-native-async-storage/async-storage
+yarn add @react-native-community/checkbox
+yarn add @react-native-community/netinfo
+yarn add @react-native-masked-view/masked-view
+yarn add @tanstack/react-query
+yarn add @reduxjs/toolkit
+yarn add moment
+yarn add socket.io-client
+yarn add i18next
+yarn add axios
+yarn add formik
+yarn add yup

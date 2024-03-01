@@ -1,8 +1,8 @@
-import { IHomeStack } from "../interfaces";
+import { HomeStackScreens } from "../types";
 import HomeScreen from "../screens/HomeScreen";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-const Stack = createNativeStackNavigator<IHomeStack>();
+const Stack = createNativeStackNavigator<HomeStackScreens>();
 
 export default function HomeStack() {
     return(

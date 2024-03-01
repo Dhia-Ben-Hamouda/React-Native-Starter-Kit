@@ -1,10 +1,10 @@
-import { IAuthStack } from "../interfaces";
+import { AuthStackScreens } from "../types";
 import SignInScreen from "../screens/SignInScreen";
 import SignUpScreen from "../screens/SignUpScreen";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 
-const Stack = createNativeStackNavigator<IAuthStack>();
+const Stack = createNativeStackNavigator<AuthStackScreens>();
 
 export default function AuthStack() {
     return(
