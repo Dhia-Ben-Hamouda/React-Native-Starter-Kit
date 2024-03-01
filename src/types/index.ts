@@ -1,5 +1,18 @@
 import { NavigatorScreenParams } from "@react-navigation/native";
 
+export interface IUser {
+
+}
+
+// redux state types / interfaces
+
+export interface IReduxAuthState {
+    user: IUser | null;
+    isAuthenticated: boolean; 
+}
+
+// navigation types / interfaces
+
 export type AuthStackScreens = {
     SignInScreen: undefined;
     SignUpScreen: undefined;
