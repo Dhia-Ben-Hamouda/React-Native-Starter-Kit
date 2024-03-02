@@ -1,7 +1,7 @@
 import React from "react";
 import { AuthStackScreens } from "../types";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { OnBoardingScreen, SignUpScreen, SignInScreen } from "../screens";
+import { OnBoardingScreen, SignUpScreen, SignInScreen, PractiseScreen } from "../screens";
 
 const Stack = createNativeStackNavigator<AuthStackScreens>();
 
@@ -11,6 +11,7 @@ export default function AuthStack() {
             <Stack.Screen name="OnBoardingScreen" component={OnBoardingScreen} />
             <Stack.Screen name="SignInScreen" component={SignInScreen} />
             <Stack.Screen name="SignUpScreen" component={SignUpScreen} />
+            <Stack.Screen name="PractiseScreen" component={PractiseScreen} />
         </Stack.Navigator>
     )
 }

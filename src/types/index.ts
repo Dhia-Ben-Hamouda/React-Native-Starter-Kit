@@ -18,6 +18,7 @@ export type AuthStackScreens = {
     SignInScreen: undefined;
     SignUpScreen: undefined;
     OnBoardingScreen: undefined;
+    PractiseScreen: undefined;
 }
 
 export type HomeStackScreens = {

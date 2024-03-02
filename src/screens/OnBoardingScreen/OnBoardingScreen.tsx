@@ -8,6 +8,8 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import Dot from "./components/Dot";
 import { useAnimatedScrollHandler, useSharedValue } from "react-native-reanimated";
 import Animated from "react-native-reanimated";
+import { NavigationProp, useNavigation } from "@react-navigation/native";
+import { AuthStackScreens } from "../../types";
 
 const slides = [
     {
@@ -33,6 +35,7 @@ interface IOnViewableItemsChanged {
 
 export default function OnBoardingScreen(): React.ReactElement {
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+    const navigation = useNavigation<NavigationProp<AuthStackScreens>>();
     const flatListRef = useRef<FlatList>(null);
     const offset = useSharedValue(0);
     const onScroll = useAnimatedScrollHandler({
@@ -48,9 +51,9 @@ export default function OnBoardingScreen(): React.ReactElement {
     const slideHandler = useCallback((action: "prev" | "next") => {
         if(action === "next") {
             if(currentSlideIndex === 2) {
-                console.log("get started")
-            } else {
-    
+                console.log("get started");
+                navigation.navigate("PractiseScreen");
+            } else {    
                 flatListRef.current?.scrollToIndex({ index: currentSlideIndex + 1 });
             }
         } else {
